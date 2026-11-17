@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill 2: Set Operators</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+
+    <style>
+        body{
+            background-color: #f8f7fc;
+            font-family: Arial;
+        }
+
+        h3{
+            color: #665b83;
+        }
+
+        h5{
+            color: #6d6480;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input{
+            background-color: #e9eaff !important;
+            border: 1px solid #d8d8f0 !important;
+            font-size: 12px !important;
+        }
+
+        button{
+            background-color: #a99bd8 !important;
+            border: none !important;
+            font-size: 12px !important;
+        }
+
+        #result{
+            background-color: #f4dce9;
+            color: #75516b;
+            padding: 12px;
+            font-size: 12px;
+            min-height: 250px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body class="container mt-4">
+
+    <h5>Q2 ICT 10: DRILL 2 (SET OPERATORS)</h5>
+
+    <input type="text" id="firstname" class="form-control mb-2" placeholder="First Name">
+
+    <input type="text" id="lastname" class="form-control mb-2" placeholder="Last Name">
+
+    <button class="btn btn-primary btn-sm mb-3" py-click="add">
+        Submit
+    </button>
+
+    <div id="result"></div>
+
+    <script type="py" src="./main.py"></script>
+
+</body>
+</html>
